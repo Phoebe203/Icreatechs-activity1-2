@@ -1,0 +1,48 @@
+h1 {
+  color: darkred;
+}
+body {
+  background: lightgray;
+  color: black;
+}
+img {
+  height: 200px;
+  width: 100%;
+}
+a {
+  color: red;
+}
+.anchor {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+}
+table {
+  max-width: 800px;
+  width: 100%;
+  border: collapse;
+  background-color: black;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+th,
+tr {
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background: darkred;
+}
+tr {
+  background-color: palevioletred;
+}
+tr:nth-child(even) {
+  background: indianred;
+}
+p {
+  text-align:center
+}
+p {
+  font-size: 15px
+}
